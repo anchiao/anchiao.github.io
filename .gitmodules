@@ -1,0 +1,3 @@
+[submodule "mySite/themes/toha"]
+	path = mySite/themes/toha
+	url = https://github.com/hugo-toha/toha.git

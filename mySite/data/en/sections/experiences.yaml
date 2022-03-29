@@ -1,0 +1,44 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Innova Solution.
+    url: "https://www.innovasolutions.com/"
+    location: Taipei
+  positions:
+  - designation: Software Engineer
+    start: Feb 2022
+    # end: Nov 2020
+   # responsibilities:
+   # - Collaborated with 7 team members to built an interactive and user-centered [eCommerce project](https://github.com/chmonk/PodCastProject).
+   # - Daily up to 12+ hrs of study in fundamental knowledge of programming.
+
+- company:
+    name: Hyweb Technology Co.
+    url: "https://www.hyweb.com.tw/"
+    location: Taipei
+    # company overview
+    overview: In charge of handling the information systems and cloud platform for the Ministry of the Interior and the National Immigration Agency R.O.C
+  positions:
+  - designation: Full Stack Developer
+    start: Nov 2020
+    end: Jan 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    responsibilities:
+    - Completed 25 batch programs, tasks including big data update and file transfer.
+    - Linux administration, specifically CentOS.
+    - Configured Nginx and Apache Tomcat to improve security and performance.
+    - Integrated systems using variety of protocols like REST, MQ, TCP/IP, JSON.
+    - Refactored old project to increase scalability as well as optimized efficiency.
+    - Tests with Junit and mocking frameworks, ensuring the functionality performs as expected.
+    - Managed the issue, follow up as necessary until closure.
