@@ -51,6 +51,7 @@ params:
   
   features:
     comment:
+      enable: true
       giscus:
         repo: "anchiao/anchiao.github.io"
         repoID: "R_kgDOHD-W2w"
