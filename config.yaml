@@ -48,3 +48,13 @@ params:
     main: images/planet.png
     inverted: images/planet.png
     favicon: images/planet.png
+  
+  features:
+    comment:
+      giscus:
+        repo: "anchiao/anchiao.github.io"
+        repoID: "R_kgDOHD-W2w"
+        category: "Announcements"
+        categoryID: "DIC_kwDOHD-W284COi8H"
+        theme: "light_high_contrast"
+        map: "url"
