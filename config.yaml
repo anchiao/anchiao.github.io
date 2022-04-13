@@ -19,7 +19,7 @@ markup:
     ordered: true
 
 # Enable Disqus forum
-disqusShortname: anchiaoc
+# disqusShortname: anchiaoc
 
 # Enable global emoji support
 enableEmoji: true
