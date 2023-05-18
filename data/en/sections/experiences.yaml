@@ -36,9 +36,6 @@ experiences:
     # end: Dec 2020
     responsibilities:
     - Completed 25 batch programs, tasks including big data update and file transfer.
-    - Linux administration, specifically CentOS.
-    - Configured Nginx and Apache Tomcat to improve security and performance.
-    - Integrated systems using variety of protocols like REST, MQ, TCP/IP, JSON.
-    - Refactored old project to increase scalability as well as optimized efficiency.
-    - Tests with Junit and mocking frameworks, ensuring the functionality performs as expected.
-    - Managed the issue, follow up as necessary until closure.
+    - In charge of the immigration system, designing front-end and back-end application forms with a daily viewership of 1000+.
+    - Implemented 25 batch programs, tasks including big data updates and file transfers using REST, MQ, TCP/IP and JSON.
+    - Responsible for configuring Nginx to enhance security and performance, deploying and managing services on Linux.
