@@ -1,6 +1,6 @@
 ---
 title: "Upload and Download File by SFTP"
-date: 2021-07-06T08:06:25+06:00
+date: "2021-07-06T08:06:25+06:00"
 description: "write Java code that uploads a file from local computer to a remote SFTP server, or download a file from remote server to local directory"
 menu:
   sidebar:

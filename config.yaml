@@ -19,7 +19,7 @@ markup:
     ordered: true
 
 # Enable Disqus forum
-disqusShortname: anchiaoc
+# disqusShortname: anchiaoc
 
 # Enable global emoji support
 enableEmoji: true
@@ -31,6 +31,9 @@ params:
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
+
+  date:
+    Format: "02 Jan 2006"
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
@@ -48,3 +51,14 @@ params:
     main: images/planet.png
     inverted: images/planet.png
     favicon: images/planet.png
+  
+  features:
+    comment:
+      enable: true
+      giscus:
+        repo: "anchiao/anchiao.github.io"
+        repoID: "R_kgDOHD-W2w"
+        category: "Announcements"
+        categoryID: "DIC_kwDOHD-W284COi8H"
+        theme: "light_high_contrast"
+        map: "url"
