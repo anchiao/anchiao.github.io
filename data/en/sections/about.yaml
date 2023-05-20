@@ -8,14 +8,14 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Developer
+# designation: Software Engineer
 # your company information
-company:
-  name: Innova Solution.
-  url: "https://www.innovasolutions.com/"
+# company:
+#   name: Innova Solution.
+
 
 # your resume. this file path should be relative to you "static" directory
-# resume: "files/JoanneChangResume.pdf"
+  # resume: "files/JoanneChangResume2.pdf"
 
 # a summary about you
 summary: 'I am a backend developer with a genuine love for coding. I enjoy solving interesting problems and building user friendly web applications.'
@@ -29,7 +29,7 @@ socialLinks:
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://github.com/anchiao"
+  url: "https://github.com/joannechanginnova"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
@@ -39,13 +39,17 @@ socialLinks:
   icon: "fab fa-stack-overflow"
   url: "https://stackoverflow.com/users/15409131/anchiao-c"
 
-#- name: Twitter
-#  icon: "fab fa-twitter"
-#  url: "#"
+- name: LeetCode
+  icon: "fa-sharp fa-solid fa-code"
+  url: "https://leetcode.com/anchiao0417/"
 
 # name: Facebook
 #  icon: "fab fa-facebook"
 #  url: "https://www.facebook.com/anchiao.chang"
+
+resourceLinks:
+- title: "My Resume"
+  url: "files/JoanneChangResume2.pdf"
     
 
 # your soft skills

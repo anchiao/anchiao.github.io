@@ -18,9 +18,11 @@ experiences:
   - designation: Software Engineer
     start: Feb 2022
     # end: Nov 2020
-   # responsibilities:
-   # - Collaborated with 7 team members to built an interactive and user-centered [eCommerce project](https://github.com/chmonk/PodCastProject).
-   # - Daily up to 12+ hrs of study in fundamental knowledge of programming.
+    responsibilities:
+    - Designed AWS microservices for top U.S. healthcare company, managing 32% of the nation's patient records.
+    - Collaborated in a cross-culture team (US, Taiwan & India), communicate effectively during each scrum sprint.
+    - Developed an export/import module for contract management system, receiving reviews from users as the "best import ever!"
+    - Built functionalities and resolved bugs, supported QA and customers at different time zones, ensuring timely issue resolution.
 
 - company:
     name: Hyweb Technology Co.

@@ -1,0 +1,40 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Java
+  logo: /images/sections/skills/java.png
+  summary: "Proficient in utilizing Java for professional development. Well-versed in OOP, capable of writing scalable, testable, and maintainable Spring Boot project."
+
+- name: Database
+  logo: /images/sections/skills/db.png
+  summary: "Extensive knowledge of relational databases, including MS-SQL and PostgresSQL. Proficient in designing efficient tables and queries."
+
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "Competent in deploying and managing applications on AWS. Familiarity with various AWS services, such as Lambda, Athena, S3, EventBridge, and API Gateway. "
+
+# - name: Docker
+#   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+#   url: "https://www.docker.com/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Experienced in Linux administration. Capable of writing bash/shell scripts to automate tasks."
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Familiarity with git-based development. Also have experience in working with GitLab."
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Proficient in using Python for LeetCode programming challenges. Experienced in building APIs using Python frameworks like FastAPI, Pydantic, and Pytest."
