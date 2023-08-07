@@ -19,10 +19,11 @@ experiences:
     start: Feb 2022
     # end: Nov 2020
     responsibilities:
-    - Designed AWS microservices for a top U.S. healthcare company, overseeing the management of 32% of the nation's patient records.
-    - Delivered concise presentations to project stakeholders in each scrum sprint and effectively collaborated with a cross-time zone team (US, Taiwan & India). 
-    - Led the development of an export/import module, receiving reviews from users as the "best import ever!" 
-    - Documented API implementations and bugs fixes, providing on-call support for prompt issue resolution.
+    - Led the development of export/import system, receiving reviews from users as the "best import ever!" 
+    - Integrated AWS lambda, Athena, S3, and EventBridge to develop a daily transaction reporting system, ensuring accurate billing for customers.
+    - Demonstrated features to project stakeholders in each scrum sprint, providing on-call support and effectively collaborating with a cross-time zone team (US, Taiwan & India). 
+    - Built a bulk user records import feature, resulting in a significant 23% reduction in rework.
+
 
 - company:
     name: Hyweb Technology Co.
@@ -37,8 +38,8 @@ experiences:
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     responsibilities:
-    - Built intuitive landing pages and forms that received daily submissions of 1000+ applications.
-    - Delivered 25 batch programs, tasks including big data updates and file transfers using REST, MQ, TCP/IP and JSON. 
-    - Initiated the configuration of Nginx to enhance security and performance of a government immigration system.
-    - Created automation scripts for seamless project deployment on Linux.
+    - Delivered 25 batch programs, tasks including CSV generation, photo processing, and file transfers.
+    - AP server administrator, initiated the configuration of Nginx and created automation scripts for seamless project deployment on Linux.
+    - Worked closely with government officials, providing continuous software consultation, error troubleshooting, and security handling.
+
 

@@ -1,0 +1,45 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+# - name: Professional
+#  filter: "professional"
+#- name: Hobby
+#  filter: "hobby"  
+
+# your projects
+projects:
+- name: expense application
+  logo: images/projects/kubernetes.png
+  role: Creator
+  timeline: "March 2023 - Present"
+  repo: https://github.com/JoanneChangInnova/expense-application # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: A project contains 3 services hosting on AWS with CI/CD workflows.
+  tags: ["Kotlin", "CI/CD", "AWS", "Message Queue"]
+
+- name: employee hierarchy service
+  logo: images/projects/kubernetes.png
+  role: Creator
+  timeline: "Jan 2023 - Feb 2023"
+  repo: https://github.com/JoanneChangInnova/employee-hierarchy 
+  summary: An employee hierarchy service with OOP design.
+  tags: ["Python", "Design Pattern"]
+
+- name: password validation service
+  logo: images/projects/kubernetes.png
+  role: Creator
+  timeline: "Jan 2023 - Feb 2023"
+  repo: https://github.com/JoanneChangInnova/password-validation
+  summary: A password validation service using the Strategy and Factory Design Patterns
+  tags: ["Java", "Design Pattern"]

@@ -17,7 +17,7 @@ skills:
 
 - name: Database
   logo: /images/sections/skills/db.png
-  summary: "Extensive knowledge of relational databases, including MS-SQL and PostgresSQL. Proficient in designing efficient tables and queries."
+  summary: "Extensive knowledge of relational databases, including MySQL and PostgresSQL. Proficient in designing efficient tables and queries. Also familiar with Redis cache for low latency reads and writes"
 
 - name: Cloud Computing
   logo: /images/sections/skills/cloud.png
@@ -29,11 +29,11 @@ skills:
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Experienced in Linux administration. Capable of writing bash/shell scripts to automate tasks."
+  summary: "Experienced in Linux administration, especially in app deployment and Nginx configuration, and capable of writing bash/shell scripts to automate tasks."
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Familiarity with git-based development. Also have experience in working with GitLab."
+  summary: "Familiarity with git-based development. Also have experience in working with GitLab and Azure DevOps."
 
 - name: Python
   logo: /images/sections/skills/python.png
