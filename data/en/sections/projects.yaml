@@ -41,5 +41,13 @@ projects:
   role: Creator
   timeline: "Jan 2023 - Feb 2023"
   repo: https://github.com/JoanneChangInnova/password-validation
-  summary: A password validation service using the Strategy and Factory Design Patterns
+  summary: A password validation service using the Strategy and Factory Design Patterns.
   tags: ["Java", "Design Pattern"]
+
+- name: simple banking system
+  logo: images/projects/kubernetes.png
+  role: Creator
+  timeline: "Aug 2023"
+  repo: https://github.com/JoanneChangInnova/BankingSystem
+  summary: A simple, thread-safe, scalable and extensible banking system with functionality to perform common banking operations.
+  tags: ["Java", "concurrency"]
