@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hugo - basic commands and hosting</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
+
+
+<link rel="stylesheet" href="/fontawesome/css/all.min.css"/>
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/planet_hu16b6c78e8537341cfc427575be072062_223980_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="Hugo - basic commands and hosting" />
+<meta property="og:description" content="Hugo - basic commands and hosting" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://anchiao.github.io/posts/webdevelopment/static-site-generator/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-05-28T10:57:25+08:00" />
+<meta property="article:modified_time" content="2023-05-28T10:57:25+08:00" />
+
+
+    
+    
+<meta name="description" content="Hugo - basic commands and hosting" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+
+
+
+
+</head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/planet_hu16b6c78e8537341cfc427575be072062_223980_42x0_resize_box_3.png" alt="Logo">
+      JOANNE</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/planet_hu16b6c78e8537341cfc427575be072062_223980_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/planet_hu16b6c78e8537341cfc427575be072062_223980_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/java/">JAVA</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/java/codingtest/">coding test</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/java/codingtest/getmostvisited/" title="getMostVisited">getMostVisited</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/java/codingtest/parkingbill/" title="ParkingBill">ParkingBill</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/java/ftp/">File Transfer</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/java/ftp/uploadanddownloadfilebysftp/" title="Upload and Download a File by SFTP">Upload and Download a File by SFTP</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/macos-directory/">macOS</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/macos-directory/homebrew/">Homebrew</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/macos-directory/homebrew/homebrew-installation/" title="Homebrew Installation Troubleshooting">Homebrew Installation Troubleshooting</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/sql/">SQL</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/sql/largedata/" title="Insert Large Data">Insert Large Data</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/sql/mssql/temp-table/" title="MSSQL temporary table">MSSQL temporary table</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/webdevelopment/">Web Development</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/webdevelopment/cross-site-scripting/" title="Cross-Site Scripting(XSS)">Cross-Site Scripting(XSS)</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/posts/webdevelopment/static-site-generator/" title="Hugo - basic commands and hosting">Hugo - basic commands and hosting</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/webdevelopment/firefox-mime/" title="Troubleshooting for Firefox showing error while downloading .xlsx file">Troubleshooting for Firefox showing error while downloading .xlsx file</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://anchiao.github.io/posts/webdevelopment/static-site-generator/images/hugo.png);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/Joanne_hub039da768100b2ab731d4a109ae337e0_28498_120x120_fit_box_3.png' alt="Author Image">
+          <h5 class="author-name">Joanne Chang</h5>
+          
+        </div>
+
+        <div class="title">
+          <h1>Hugo - basic commands and hosting</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>As a software engineer, my friends often approach me with requests like, &ldquo;I need a personal website to showcase my projects. Do you know how to create one?&rdquo; or &ldquo;Can you build a website for my product?&rdquo; Having a dedicated website can significantly enhance the professional image of a person or their product. If you share the same need, you might want to consider using a static site generator to build your website. It&rsquo;s a completely free and user-friendly tool, especially if you have some programming knowledge. To get you started, here&rsquo;s a  guidance of &ldquo;the world&rsquo;s fastest static site generator - Hugo&rdquo;</p>
+<h2 id="static-site-generator">Static Site Generator</h2>
+<p>A static site generator (SSG) creates a website by generating HTML, CSS, and JavaScript files during the build process. It combines the content with pre-defined templates. These static files can then be served to visitors directly from a web server without the need for any server-side processing.</p>
+<p>In contrast, a dynamic site relies on server-side processing to generate and deliver content on the fly. The web server dynamically generates HTML and other content based on the user&rsquo;s request and data retrieved from a database or other sources. This allows for dynamic content updates, user interactions, and personalized experiences.</p>
+<h2 id="who-should-use-it">Who should use it?</h2>
+<p>Static sites offer advantages such as faster loading times, better security, and simpler hosting requirements since they don&rsquo;t require server-side processing. They are well-suited for websites with relatively static content, such as blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.</p>
+<h2 id="hugo---static-site-generator">Hugo - Static Site Generator</h2>
+<p>Written in Go, Hugo is an open source static site generator. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content.</p>
+<h2 id="how-fast-is-hugo">How Fast is Hugo?</h2>
+<p>What’s modern about waiting for your site to build? Hugo is the fastest tool of its kind. At &lt;1 ms per page, the average site builds in less than a second.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="installation">installation</h3>
+<p><a href="https://gohugo.io/installation/">Hugo Official Document</a></p>
+<h3 id="theme">Theme</h3>
+<p>pick one for your website:<br>
+<a href="https://themes.gohugo.io/">Hugo Themes</a></p>
+<p>I recommended these easy-to-follow themes: <a href="https://themes.gohugo.io/themes/hugo-coder/">Coder</a> , <a href="https://themes.gohugo.io/themes/eternity/">Eternity</a></p>
+<h3 id="basic-commands">Basic Commands</h3>
+<p>Create hugo directory structure:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>hugo new site &lt;<span style="color:#f92672">site-name</span>&gt;
+</span></span><span style="display:flex;"><span>cd &lt;<span style="color:#f92672">site-name</span>&gt;
+</span></span><span style="display:flex;"><span>git init
+</span></span></code></pre></div><p>Clone the theme into the /themes directory, adding it to your project as a Git submodule.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>git submodule add https://github.com/&lt;<span style="color:#f92672">theme-repo-url</span>&gt; themes/&lt;<span style="color:#f92672">theme-name</span>&gt;
+</span></span></code></pre></div><p>Usually there&rsquo;s a example site under themes directory, it&rsquo;s better to that to root directory, so you can get all the contents as same as the themes demo and your site will be ready to run up at this point.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>cp -a themes/&lt;<span style="color:#f92672">theme-name</span>&gt;/exampleSite/. .
+</span></span></code></pre></div><p>Start Hugo’s development server to see your changes in local</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>hugo serve -D
+</span></span></code></pre></div><p>Publish the site. This will create the entire static site in the public directory in the root of your project.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>hugo
+</span></span></code></pre></div><h3 id="hosting-on-github-pages">Hosting on GitHub Pages</h3>
+<p>1.create a Github repository</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> user site: https://&lt;<span style="color:#f92672">username</span>&gt;.github.io/
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> project sites: https://&lt;<span style="color:#f92672">username</span>&gt;.github.io/&lt;<span style="color:#f92672">repository</span>&gt;/
+</span></span></code></pre></div><p>You can only create one user site for each account on GitHub. Project sites are unlimited.</p>
+<p>2.edit the baseURL as the above Github repository url in config.toml(or .yml) in the root directory.</p>
+<p>3.upload files to repository</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>cd public
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git branch -M main
+</span></span><span style="display:flex;"><span>git commit -m &#34;first commit&#34;
+</span></span><span style="display:flex;"><span>git remote add origin &lt;<span style="color:#f92672">git-repo</span>&gt;
+</span></span><span style="display:flex;"><span>git push -u origin main
+</span></span></code></pre></div><p>4.start building:</p>
+<p><img src="images/image4.png" alt="image"></p>
+<h3 id="hosting-for-aws-s3">Hosting for AWS S3</h3>
+<p>1.create S3 bucket using AWS CLI:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span># add secret access key and region of your account (create one in Security Credentials)
+</span></span><span style="display:flex;"><span>aws configure 
+</span></span><span style="display:flex;"><span># create bucket
+</span></span><span style="display:flex;"><span>aws s3 mb s3://bucket-name
+</span></span><span style="display:flex;"><span># check all buckets
+</span></span><span style="display:flex;"><span>aws s3 ls
+</span></span></code></pre></div><p>2.enable static website hosting  <br>
+<img src="images/image5.png" alt="image"></p>
+<p>3.permission &gt; edit bucket policy</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    &#34;Version&#34;: &#34;2012-10-17&#34;,
+</span></span><span style="display:flex;"><span>    &#34;Statement&#34;: [
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            &#34;Sid&#34;: &#34;PublicReadGetObject&#34;,
+</span></span><span style="display:flex;"><span>            &#34;Effect&#34;: &#34;Allow&#34;,
+</span></span><span style="display:flex;"><span>            &#34;Principal&#34;: &#34;*&#34;,
+</span></span><span style="display:flex;"><span>            &#34;Action&#34;: &#34;s3:GetObject&#34;,
+</span></span><span style="display:flex;"><span>            &#34;Resource&#34;: &#34;arn:aws:s3:::&lt;<span style="color:#f92672">bucket-name</span>&gt;/*&#34;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>this will allow public read and get all files in your bucket</p>
+<p>4.upload files</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>aws s3 sync . s3://my-bucket/
+</span></span></code></pre></div><p>5.Finish! the website url is under <em>properties</em> &gt; Static website hosting  <br>
+<img src="images/image6.png" alt="image"></p>
+
+        </div>
+
+        
+        <div class="row pl-3 pr-3">
+        
+        <div class="col-md-6 share-buttons">
+        
+          </div>
+
+        
+        
+          
+            
+          
+          <div class="col-md-6 btn-improve-page">
+             
+               <a href="https://github.com/anchiao/anchiao.github.io/edit/main/content/posts/WebDevelopment/Static-Site-Generator/index.md" title="Improve this page" target="_blank" rel="noopener">
+            
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+    
+    
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/posts/webdevelopment/cross-site-scripting/" title="Common Cross Site Scripting(XSS) and ways to prevent it" class="btn btn-outline-info">
+        <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
+        <div class="next-prev-text">Common Cross Site Scripting(XSS) and ways to prevent it</div>
+      </a>
+    </div>
+  
+  
+      
+      
+        
+      
+      <div class="col-md-6 next-article">
+        <a href="/posts/webdevelopment/firefox-mime/" title="Troubleshooting for Firefox showing error while downloading .xlsx file" class="btn btn-outline-info">
+          <div>Next <i class="fas fa-chevron-circle-right"></i></div>
+          <div class="next-prev-text">Troubleshooting for Firefox showing error while downloading .xlsx file</div>
+        </a>
+      </div>
+    
+</div>
+
+      <hr />
+
+      
+      
+        
+          
+          
+              
+
+
+
+
+
+
+
+
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="anchiao/anchiao.github.io"
+        data-repo-id="R_kgDOHD-W2w"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOHD-W284COi8H"
+        data-mapping="url"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light_high_contrast"
+        data-lang=""
+        crossorigin="anonymous"
+        async>
+</script>
+
+          
+        
+      
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#static-site-generator">Static Site Generator</a></li>
+    <li><a href="#who-should-use-it">Who should use it?</a></li>
+    <li><a href="#hugo---static-site-generator">Hugo - Static Site Generator</a></li>
+    <li><a href="#how-fast-is-hugo">How Fast is Hugo?</a></li>
+    <li><a href="#quick-start">Quick Start</a>
+      <ol>
+        <li><a href="#installation">installation</a></li>
+        <li><a href="#theme">Theme</a></li>
+        <li><a href="#basic-commands">Basic Commands</a></li>
+        <li><a href="#hosting-on-github-pages">Hosting on GitHub Pages</a></li>
+        <li><a href="#hosting-for-aws-s3">Hosting for AWS S3</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+  
+      
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://anchiao.github.io#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://anchiao.github.io#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://anchiao.github.io#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://anchiao.github.io#projects">Projects</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://anchiao.github.io#recent-posts">Recent Posts</a>
+                </li>
+              
+            
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:anchiao0417@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>anchiao0417@gmail.com</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+
+
+
+
+        </div>
+        <div class="col-md-4 text-center">© 2023 Copyright.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

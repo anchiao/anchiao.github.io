@@ -11,9 +11,25 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Innova Solution.
+    name: KKday
+    url: "https://www.kkday.com/"
+    
+  positions:
+  - designation: Backend Developer
+    start: Sep 2023
+    end: present
+    responsibilities:
+    - Architected a ticket system leveraging JDK 21's performance enhancements, Spring JPA's ORM framework, AOP for robust user verification, Redis for efficient distributed locking, and RabbitMQ for reliable message delivery.
+    - Crafted and actively maintained comprehensive technical documentation, including ERD diagrams, database architecture, and functional flowcharts. Additionally, documented 50+ API functionalities with detailed usage examples, facilitating a seamless system integration for external partners, reducing onboarding time by 20%.
+    - Developed a pricing verification system that identifies potential profit losses by alerting on items below a 5% margin or experiencing a 20% increase in sales within a week. Leveraging the Slack API for real-time notifications, the system boosted pricing accuracy by 5%, resulting in a reduction of missed profit opportunities by 15%.
+    - Continuously sharing technical knowledge and mentoring interns, I facilitated effective communication with team members through daily code review meetings. This ensured clear goals, transparency, and ultimately resulted in a reduction in missed deadlines.
+
+
+
+- company:
+    name: Innova Solution
     url: "https://www.innovasolutions.com/"
-    location: Taipei
+    # location: Taipei
   positions:
   - designation: Software Engineer
     start: Feb 2022

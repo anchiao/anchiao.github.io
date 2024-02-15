@@ -65,3 +65,19 @@ softSkills:
   - name: Persistence
     percentage: 100
     color: sky
+  - name: Hard Working
+    percentage: 100
+    color: blue
+  - name: Leadership
+    percentage: 100
+    color: pink
+
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: AWS Certified Developer - Associate certification
+  url: "https://www.credly.com/badges/67f09c0a-564c-4eb1-aebd-315cff04b9ba"
+  badge: "https://images.credly.com/size/340x340/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png"

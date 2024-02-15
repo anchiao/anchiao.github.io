@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL Directory on JOANNE</title>
+    <link>https://anchiao.github.io/posts/sql/</link>
+    <description>Recent content in SQL Directory on JOANNE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Aug 2021 08:06:25 +0600</lastBuildDate><atom:link href="https://anchiao.github.io/posts/sql/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Insert Large Data Manually To Avoid Timeout</title>
+      <link>https://anchiao.github.io/posts/sql/largedata/</link>
+      <pubDate>Tue, 10 Aug 2021 08:06:25 +0600</pubDate>
+      
+      <guid>https://anchiao.github.io/posts/sql/largedata/</guid>
+      <description>As part of a batch project, I have to insert/update large data (up to millions rows) into a MSSQL database. This requires insert into a hundred rows in one statement, then looping through all datas, such long transaction may encounter an error of jta transaction unexpectedly rolled back (maybe due to a timeout). Here&amp;rsquo;s how to handle this exception.
+Basic setting The transaction annotation timeout value, can be set up to Integer.</description>
+    </item>
+    
+    <item>
+      <title>MSSQL temporary table</title>
+      <link>https://anchiao.github.io/posts/sql/mssql/temp-table/</link>
+      <pubDate>Thu, 24 Jun 2021 08:06:25 +0600</pubDate>
+      
+      <guid>https://anchiao.github.io/posts/sql/mssql/temp-table/</guid>
+      <description>Temporary tables are used to store data temporarily and they can perform CRUD (Create, Read, Update, and Delete), join, and some other operations like the persistent database tables, which gives us more flexibility to get the info we want from the database. SQL Server supports a few types of temporary tables by using #, ## or @ before the table name, they exist for a different session.
+1.Using #TempTable a single hashtag (#) sign before the table name indicates a local temporary table, it&amp;rsquo;s available ONLY to the session that created it and is dropped when the session is closed, use it when you need the table to be visible only in the current session.</description>
+    </item>
+    
+    
+  </channel>
+</rss>
